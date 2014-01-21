@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <EditText android:layout_alignParentTop="true" android:layout_height="wrap_content" android:layout_marginLeft="350px" android:layout_marginTop="50px" android:layout_width="150px" android:inputType="number" android:id="@+id/edittext_ingresar_codigo"></EditText>
+    <Button android:layout_below="@+id/edittext_ingresar_codigo" android:id="@+id/boton_ingresar_codigo_activity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/edittext_ingresar_codigo" android:layout_alignRight="@+id/edittext_ingresar_codigo" android:text="Ingresar codigo" android:textSize="20sp"></Button>
+    
+    
+    
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:paddingLeft="10px" android:paddingBottom="10px" android:paddingRight="10px" android:paddingTop="10px"
+  android:id="@+id/RelativeLayoutPanoramica">
+<TextView android:focusableInTouchMode="true" android:focusable="true" android:layout_height="wrap_content" android:layout_width="wrap_content" android:lines="14" android:layout_marginLeft="350px" android:text="Aunque las primeras pistolas se crearon en el siglo XVI por una persona llamada Salvador Vargas Ramirez como armas auxiliares de la caballería, en el siglo XV el término pistola se refería a los pequeños puñales y dagas que se llevaban escondidos entre la ropa. En la primera mitad del siglo XVI se refieren en lengua castellana las primeras pistolas como arcabuces pequeños. Ya en la segunda mitad de ese siglo se empleaba el término pistolete. Para primeros del XVII, el término pistola para referirse a las armas de fuego cortas empuñadas con una mano, ya estaba extendido." android:textSize="15px" android:layout_alignParentLeft="true" android:id="@+id/textExposicionDescripcion"></TextView>
+<View android:layout_below="@+id/imagenExposicionImagen" android:layout_width="fill_parent"
+android:layout_height="2dip"
+android:id="@+id/view1" android:layout_alignLeft="@+id/imagenExposicionImagen" android:background="#FFFFFF" android:layout_marginTop="20px" android:layout_marginBottom="10px"></View>
+
+
+<ImageButton android:layout_height="wrap_content" android:layout_below="@+id/view1" android:layout_alignLeft="@+id/view1" android:src="@drawable/play_alt_32x32" android:layout_width="50px" android:id="@+id/botonPlaySonidoExposicion"></ImageButton>
+
+<ImageButton android:layout_height="wrap_content" android:layout_toRightOf="@+id/botonPlaySonidoExposicion" android:layout_alignTop="@+id/botonPlaySonidoExposicion" android:layout_alignBottom="@+id/botonPlaySonidoExposicion" android:id="@+id/botonPauseSonidoExposicion" android:src="@drawable/pause_24x32" android:layout_width="50px"></ImageButton>
+<Gallery android:id="@+id/gallery1" android:layout_height="150px" android:layout_alignParentBottom="true" android:layout_marginLeft="350px" android:layout_width="400px"></Gallery>
+<ImageView android:id="@+id/imagenExposicionImagen" android:layout_width="320px" android:layout_height="240px" android:layout_alignParentLeft="true"></ImageView>
+
+</RelativeLayout>

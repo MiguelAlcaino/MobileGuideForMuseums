@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="pucv.prototipo"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.Light">
+        <activity android:name=".GuiaActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PisoActivity">
+        </activity>
+		<activity android:name=".PanoramicaAct"> 
+		</activity>
+		<activity android:name=".PanoramicaTab">
+		</activity>
+		<activity android:name=".ExposicionActivity">
+		</activity>
+		<activity android:name=".IngresarCodigoActivity">
+		</activity>
+		<activity android:name=".RecorridoActivity">
+		</activity>
+		<activity android:name=".RecorriendoActivity">
+		</activity>
+    </application>
+    <uses-sdk android:minSdkVersion="4" />
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest> 
